@@ -1,0 +1,234 @@
+HTML stands for Hyper Text Markup Language
+
+HTML is the standard markup language for creating Web pages
+
+HTML describes the structure of a Web page
+
+HTML consists of a series of elements
+
+HTML elements tell the browser how to display the content
+
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title></title>
+        </head>
+        <body>
+
+        </body>
+</html>
+
+
+HTML Headings
+
+
+HTML headings are defined with <h1> to <h6> tags.
+<h1> defines the most important heading. <h6> defines the least important heading.
+
+HTML Headings
+<h1>This is a heading!</h1>
+<h2>This is a heading!</h2>
+<h3>This is a heading!</h3>
+<h4>This is a heading!</h4>
+<h5>This is a heading!</h5>
+<h6>This is a heading!</h6>
+
+
+HTML Paragraphs
+
+<p>This is a paragraph</p>
+
+HTML Links
+
+<a href="#">Hello</a>
+
+HTML Images
+
+HTML Images are defined with the <img> tag.
+
+The source file (src) ,  alternative (alt), width, and height are provided as attributes.
+
+
+An HTML element is defined by starting a tag, some content, and an end tag.
+
+HTML element is everything from the start tag to the end tag.
+
+HTML attributes provide additional information about HTML elements
+
+All HTML elements can have attributes
+Attributes provide additional  information about elements.
+Attributes are always specified in the start tag.
+Attributes usually come in name/value pairs like: name="value"
+
+href attributes specifies the URL of the page the link goes to.
+
+src attribute specifies the path to the image to be displayed.
+
+There are two ways to specify the URL in the src attribute:
+
+1. Absolute URL - Links to an external image that is hosted on another website.
+
+Tip: External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.
+
+2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page.
+
+Tip: It is almost always best to use relative URLs. They will nto break if you change domain.
+
+
+img tag - width, height, style & alt attributes
+
+style attribute - used to add styles to an element, such as color, font, size, and more.
+
+lang attribute - inside the <html> tag, to declare the language of the web page. This is meant to assist search engines and browsers.
+
+title - defines some extra information about an element. Title attribute will be displayed as a tooltip when you mouse over the element.
+
+All HTML elements can have attributes
+
+The href attribute of <a> specifies the URL of the page the link goes to
+
+The src attribute of <img> specifies the path to the image to be displayed
+
+The width and height attributes of <img> provide size information for images
+
+The alt attribute of <img> provides an alternate text for an image
+
+The style attribute is used to add styles to an element, such as color, font,
+size, and more
+
+The lang attribute of the <html> tag declares the language of the Web page
+
+The title attribute defines some extra information about an element
+
+
+Headings are important
+Search engines use the headings to index the structure and content of your web pages.
+
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+<h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on.
+
+<html>       - Defines the root of ana HTML document
+<body>       - Defines teh document's body
+<h1> to <h6> - Defines the HTML headings.
+<p>          - Defines a paragraph.
+
+
+HTML display
+- Large or small screens, and resized windows will create different resutls.
+
+HTMl Horizontal Rules
+
+- <hr> tag defines a thematic break in an HTML page, and is most often displayed as horizontal rule.
+
+HTML Line Breaks
+
+- <br> element defines a line break.
+
+
+- <pre> element defines preformatted text.
+- The text inside a <pre> element is displayed in a fixed-width format (usually Courier), and it preserved both spaces and line breaks.
+
+<p>	Defines a paragraph
+<hr>	Defines a thematic change in the content
+<br>	Inserts a single line break
+<pre>	Defines pre-formatted text
+
+
+style - is used to add styles to an element, such as color, font size, and more.
+
+
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+
+HTML contains several elements for defining text with a special meaning.
+
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+strong is used to mean that you are trying to emphasize those words strongly, and that is the structure of what you want to write. But <b> is used for styling text to be bold, which can be done with CSS, and CSS can override the appearance of <strong> also
+
+strong is screen reader compatible and has a semantic significance.
+
+
+
+Quotations
+
+<blockquote></blockquote>
+- defines a section that is quoted from another source.
+<q>
+- defines short quotation
+<abbr>
+- defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr." "ASAP" "ATM"
+- Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
+
+
+<address>
+
+- defines the contact information for the author/owner of a document oor an article.
+- element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+
+<cite>
+
+- defines title of a creative work (book, poem, song, movie, painting and sculpture)
+- renders in italic
+
+<bdo>
+
+- BDO stands for Bi-Directional Override.
+- used to override the current text direction.
+
+
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation
+
+Comments are not displayed
+
+
+Add comments to your HTML source by using the following syntax
+
+
+<!-- Comment -->
+
+With comments you can place notifications and reminders in your HTML code
+
+Used to hide content
+
+Comments can be used to hide parts in the middle of HTML code
+
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border
